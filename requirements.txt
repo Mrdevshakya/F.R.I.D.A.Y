@@ -1,0 +1,39 @@
+# Dependencies for FRIDAY chat assistant
+requests>=2.31.0         # For web searches
+beautifulsoup4>=4.12.2   # For HTML parsing
+lxml>=4.9.3              # Faster HTML parser for BeautifulSoup
+pyttsx3>=2.90            # For text-to-speech capability
+wikipedia>=1.4.0         # For Wikipedia searches
+colorama>=0.4.6          # For colored terminal output
+# tkinter is typically included with Python standard installation
+
+# Web server dependencies
+Flask>=2.3.3             # Web framework for API and serving frontend
+Flask-CORS>=4.0.0        # Cross-Origin Resource Sharing for API
+
+# Financial analysis dependencies
+pandas>=2.0.3            # For data manipulation and analysis
+numpy>=1.25.2            # For numerical computations
+matplotlib>=3.7.2        # For creating visualizations
+scikit-learn>=1.3.0      # For machine learning algorithms
+yfinance>=0.2.35         # For fetching stock and mutual fund data
+plotly>=5.17.0           # For interactive data visualizations
+seaborn>=0.13.0          # For enhanced statistical data visualization
+
+# Additional optional packages
+# pyaudio>=0.2.13        # For future voice input capability
+# No external dependencies required for basic functionality
+
+# Core dependencies
+colorama==0.4.4
+pyttsx3==2.90
+requests==2.31.0
+beautifulsoup4==4.12.2
+wikipedia==1.4.0
+
+# Additional dependencies that might be needed
+# Uncomment if you're using these features
+# nltk==3.8.1
+# scikit-learn==1.3.0
+# pandas==2.1.0
+# numpy==1.24.3 
